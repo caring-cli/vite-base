@@ -2,7 +2,7 @@
  * @Author: Wanko
  * @Date: 2024-04-09 22:02:08
  * @LastEditors: Wanko
- * @LastEditTime: 2024-04-15 17:09:48
+ * @LastEditTime: 2024-04-15 17:45:00
  * @Description: 
 -->
 <script setup>
@@ -16,6 +16,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <main>{{ num }}</main>
+  <div>{{ num }}</div>
+  <div></div>
   <button @click="onClick">++</button>
 </template>
